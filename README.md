@@ -1,2 +1,2 @@
-# Task_TechAlpha
-In this repository multiple small tasks like fibonacci_series ,expense_tracker ,dimond_star_pattern 
+#TechAlpha_Task1
+In task 1 find out the fibonacci series 
