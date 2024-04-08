@@ -1,25 +1,17 @@
-# Program to display the Fibonacci sequence up to n-th term
+def get_fib_series(n):
+    print('value of n is--->>',n)
+    x=0
+    y=1
+    z= 0
+    while(n>=z):
+        print('inside the while loop')
+        x=y
+        y=z
+        z=x+y
+    return z
+    
 
-nterms = int(input("How many terms? "))
-
-# first two terms
-n1, n2 = 0, 1
-count = 0
-
-# check if the number of terms is valid
-if nterms <= 0:
-   print("Please enter a positive integer")
-# if there is only one term, return n1
-elif nterms == 1:
-   print("Fibonacci sequence upto",nterms,":")
-   print(n1)
-# generate fibonacci sequence
-else:
-   print("Fibonacci sequence:")
-   while count < nterms:
-       print(n1)
-       nth = n1 + n2
-       # update values
-       n1 = n2
-       n2 = nth
-       count += 1
+n=int(input("Enter the value of n:"))
+print('value of n  is--->',n)
+value=get_fib_series(n)
+print('Final value of finbonacci series is-->',value)
